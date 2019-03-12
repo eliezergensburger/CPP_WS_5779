@@ -86,6 +86,7 @@ Rational & Rational::operator=(const Rational & other)
 {
 	setMone(other.mone);
 	setMechane(other.mechane);
+	return *this;
 }
 
 Rational Rational::operator-(const Rational & rhs)
